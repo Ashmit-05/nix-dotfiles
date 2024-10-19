@@ -1,0 +1,9 @@
+[Default Applications]
+application/x-msdownload=net.lutris.Lutris.desktop
+application/vnd.microsoft.portable-executable=wine.desktop
+application/x-7z-compressed=wine.desktop
+
+[Added Associations]
+application/x-msdownload=wine.desktop;net.lutris.Lutris.desktop;
+application/vnd.microsoft.portable-executable=net.lutris.Lutris.desktop;wine.desktop;
+application/x-7z-compressed=wine.desktop;

@@ -1,0 +1,723 @@
+2024-10-15T18:55:16.259Z [Modules] Modules initializing
+2024-10-15T18:55:16.259Z [Modules] Distribution: remote
+2024-10-15T18:55:16.259Z [Modules] Host updates: disabled
+2024-10-15T18:55:16.260Z [Modules] Module updates: enabled
+2024-10-15T18:55:16.260Z [Modules] Module install path: /home/sparrow/.config/discord/0.0.67/modules
+2024-10-15T18:55:16.260Z [Modules] Module installed file path: /home/sparrow/.config/discord/0.0.67/modules/installed.json
+2024-10-15T18:55:16.261Z [Modules] Module download path: /home/sparrow/.config/discord/0.0.67/modules/pending
+2024-10-15T18:55:17.001Z [Modules] Bootstrapping...
+2024-10-15T18:55:17.015Z [Modules] Installing discord_desktop_core@0 from /nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_desktop_core.zip
+2024-10-15T18:55:17.024Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_desktop_core.zip'
+2024-10-15T18:55:17.026Z [Modules] Installing discord_erlpack@0 from /nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_erlpack.zip
+2024-10-15T18:55:17.040Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_erlpack.zip'
+2024-10-15T18:55:17.044Z [Modules] Installing discord_spellcheck@0 from /nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_spellcheck.zip
+2024-10-15T18:55:17.061Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_spellcheck.zip'
+2024-10-15T18:55:17.065Z [Modules] Installing discord_utils@0 from /nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_utils.zip
+2024-10-15T18:55:17.072Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_utils.zip'
+2024-10-15T18:55:17.073Z [Modules] Installing discord_voice@0 from /nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_voice.zip
+2024-10-15T18:55:17.076Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_voice.zip'
+2024-10-15T18:55:17.077Z [Modules] Installing discord_zstd@0 from /nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_zstd.zip
+2024-10-15T18:55:17.079Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/nix/store/aq4ska092ykcb8dajs7qj3v2mva2ar1j-discord-0.0.67/opt/Discord/resources/bootstrap/discord_zstd.zip'
+2024-10-15T18:55:17.082Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-10-15T18:55:17.084Z [Modules] Host is up to date.
+2024-10-15T18:55:17.084Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-15T18:55:17.641Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-10-15T18:55:17.641Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-10-15T18:55:17.641Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-10-15T18:55:17.641Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-10-15T18:55:17.642Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-10-15T18:55:17.642Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-10-15T18:55:17.643Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-10-15T18:55:17.643Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip
+2024-10-15T18:55:18.795Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 1%
+2024-10-15T18:55:18.863Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 2%
+2024-10-15T18:55:18.892Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 3%
+2024-10-15T18:55:18.906Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 4%
+2024-10-15T18:55:18.935Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 5%
+2024-10-15T18:55:18.954Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 6%
+2024-10-15T18:55:18.964Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 7%
+2024-10-15T18:55:18.975Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 8%
+2024-10-15T18:55:18.994Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 9%
+2024-10-15T18:55:19.005Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 10%
+2024-10-15T18:55:19.022Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 11%
+2024-10-15T18:55:19.026Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 12%
+2024-10-15T18:55:19.034Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 13%
+2024-10-15T18:55:19.040Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 14%
+2024-10-15T18:55:19.061Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 15%
+2024-10-15T18:55:19.071Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 16%
+2024-10-15T18:55:19.084Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 17%
+2024-10-15T18:55:19.090Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 18%
+2024-10-15T18:55:19.098Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 19%
+2024-10-15T18:55:19.104Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 20%
+2024-10-15T18:55:19.113Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 21%
+2024-10-15T18:55:19.119Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 22%
+2024-10-15T18:55:19.126Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 23%
+2024-10-15T18:55:19.129Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 24%
+2024-10-15T18:55:19.137Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 25%
+2024-10-15T18:55:19.139Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 26%
+2024-10-15T18:55:19.150Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 27%
+2024-10-15T18:55:19.168Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 28%
+2024-10-15T18:55:19.180Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 29%
+2024-10-15T18:55:19.190Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 30%
+2024-10-15T18:55:19.194Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 31%
+2024-10-15T18:55:19.204Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 32%
+2024-10-15T18:55:19.207Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 33%
+2024-10-15T18:55:19.217Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 34%
+2024-10-15T18:55:19.225Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 35%
+2024-10-15T18:55:19.233Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 36%
+2024-10-15T18:55:19.237Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 37%
+2024-10-15T18:55:19.243Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 38%
+2024-10-15T18:55:19.246Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 39%
+2024-10-15T18:55:19.258Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 40%
+2024-10-15T18:55:19.264Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 41%
+2024-10-15T18:55:19.273Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 43%
+2024-10-15T18:55:19.283Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 46%
+2024-10-15T18:55:19.302Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 47%
+2024-10-15T18:55:19.309Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 48%
+2024-10-15T18:55:19.326Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 49%
+2024-10-15T18:55:19.332Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 50%
+2024-10-15T18:55:19.341Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 51%
+2024-10-15T18:55:19.345Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 52%
+2024-10-15T18:55:19.354Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 53%
+2024-10-15T18:55:19.357Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 54%
+2024-10-15T18:55:19.366Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 55%
+2024-10-15T18:55:19.370Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 56%
+2024-10-15T18:55:19.374Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 57%
+2024-10-15T18:55:19.376Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 58%
+2024-10-15T18:55:19.385Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 59%
+2024-10-15T18:55:19.387Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 60%
+2024-10-15T18:55:19.392Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 61%
+2024-10-15T18:55:19.394Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 62%
+2024-10-15T18:55:19.402Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 64%
+2024-10-15T18:55:19.406Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 65%
+2024-10-15T18:55:19.411Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 66%
+2024-10-15T18:55:19.419Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 67%
+2024-10-15T18:55:19.433Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 69%
+2024-10-15T18:55:19.439Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 70%
+2024-10-15T18:55:19.444Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 71%
+2024-10-15T18:55:19.451Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 72%
+2024-10-15T18:55:19.466Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 73%
+2024-10-15T18:55:19.473Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 74%
+2024-10-15T18:55:19.476Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 75%
+2024-10-15T18:55:19.483Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 76%
+2024-10-15T18:55:19.486Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 77%
+2024-10-15T18:55:19.493Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 78%
+2024-10-15T18:55:19.501Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 79%
+2024-10-15T18:55:19.506Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 80%
+2024-10-15T18:55:19.509Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 81%
+2024-10-15T18:55:19.512Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 82%
+2024-10-15T18:55:19.520Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 83%
+2024-10-15T18:55:19.530Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 84%
+2024-10-15T18:55:19.532Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 85%
+2024-10-15T18:55:19.540Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 86%
+2024-10-15T18:55:19.543Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 87%
+2024-10-15T18:55:19.547Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 88%
+2024-10-15T18:55:19.550Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 89%
+2024-10-15T18:55:19.559Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 90%
+2024-10-15T18:55:19.562Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 91%
+2024-10-15T18:55:19.566Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 92%
+2024-10-15T18:55:19.574Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 93%
+2024-10-15T18:55:19.579Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 94%
+2024-10-15T18:55:19.586Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 95%
+2024-10-15T18:55:19.590Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 96%
+2024-10-15T18:55:19.594Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 97%
+2024-10-15T18:55:19.603Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 98%
+2024-10-15T18:55:19.614Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 99%
+2024-10-15T18:55:19.620Z [Modules] Streaming discord_desktop_core@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip: 100%
+2024-10-15T18:55:19.624Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-10-15T18:55:19.625Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip
+2024-10-15T18:55:20.537Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 2%
+2024-10-15T18:55:20.542Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 3%
+2024-10-15T18:55:20.549Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 5%
+2024-10-15T18:55:20.558Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 8%
+2024-10-15T18:55:20.560Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 9%
+2024-10-15T18:55:20.576Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 12%
+2024-10-15T18:55:20.578Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 13%
+2024-10-15T18:55:20.586Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 14%
+2024-10-15T18:55:20.588Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 15%
+2024-10-15T18:55:20.597Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 17%
+2024-10-15T18:55:20.604Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 20%
+2024-10-15T18:55:20.612Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 23%
+2024-10-15T18:55:20.615Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 24%
+2024-10-15T18:55:20.620Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 26%
+2024-10-15T18:55:20.632Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 28%
+2024-10-15T18:55:20.636Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 31%
+2024-10-15T18:55:20.639Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 32%
+2024-10-15T18:55:20.641Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 33%
+2024-10-15T18:55:20.655Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 36%
+2024-10-15T18:55:20.659Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 37%
+2024-10-15T18:55:20.663Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 40%
+2024-10-15T18:55:20.667Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 41%
+2024-10-15T18:55:20.674Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 43%
+2024-10-15T18:55:20.676Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 44%
+2024-10-15T18:55:20.679Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 45%
+2024-10-15T18:55:20.687Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 46%
+2024-10-15T18:55:20.695Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 48%
+2024-10-15T18:55:20.701Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 50%
+2024-10-15T18:55:20.711Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 53%
+2024-10-15T18:55:20.722Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 56%
+2024-10-15T18:55:20.725Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 57%
+2024-10-15T18:55:20.729Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 58%
+2024-10-15T18:55:20.734Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 59%
+2024-10-15T18:55:20.743Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 62%
+2024-10-15T18:55:20.747Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 63%
+2024-10-15T18:55:20.751Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 65%
+2024-10-15T18:55:20.759Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 67%
+2024-10-15T18:55:20.771Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 70%
+2024-10-15T18:55:20.775Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 72%
+2024-10-15T18:55:20.778Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 73%
+2024-10-15T18:55:20.783Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 75%
+2024-10-15T18:55:20.792Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 78%
+2024-10-15T18:55:20.798Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 79%
+2024-10-15T18:55:20.805Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 82%
+2024-10-15T18:55:20.810Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 84%
+2024-10-15T18:55:20.816Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 87%
+2024-10-15T18:55:20.827Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 90%
+2024-10-15T18:55:20.830Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 91%
+2024-10-15T18:55:20.833Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 92%
+2024-10-15T18:55:20.841Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 93%
+2024-10-15T18:55:20.844Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 95%
+2024-10-15T18:55:20.846Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 96%
+2024-10-15T18:55:20.848Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 97%
+2024-10-15T18:55:20.857Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 99%
+2024-10-15T18:55:20.858Z [Modules] Streaming discord_erlpack@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip: 100%
+2024-10-15T18:55:20.860Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-10-15T18:55:20.861Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip
+2024-10-15T18:55:21.835Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 1%
+2024-10-15T18:55:21.848Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 2%
+2024-10-15T18:55:21.861Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 3%
+2024-10-15T18:55:21.877Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 4%
+2024-10-15T18:55:21.889Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 5%
+2024-10-15T18:55:21.907Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 6%
+2024-10-15T18:55:21.923Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 7%
+2024-10-15T18:55:21.938Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 8%
+2024-10-15T18:55:21.949Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 9%
+2024-10-15T18:55:21.989Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 10%
+2024-10-15T18:55:22.007Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 11%
+2024-10-15T18:55:22.032Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 12%
+2024-10-15T18:55:22.052Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 13%
+2024-10-15T18:55:22.063Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 14%
+2024-10-15T18:55:22.078Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 15%
+2024-10-15T18:55:22.093Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 16%
+2024-10-15T18:55:22.111Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 17%
+2024-10-15T18:55:22.128Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 18%
+2024-10-15T18:55:22.145Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 19%
+2024-10-15T18:55:22.159Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 20%
+2024-10-15T18:55:22.172Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 21%
+2024-10-15T18:55:22.189Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 22%
+2024-10-15T18:55:22.203Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 23%
+2024-10-15T18:55:22.220Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 24%
+2024-10-15T18:55:22.238Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 25%
+2024-10-15T18:55:22.257Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 26%
+2024-10-15T18:55:22.267Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 27%
+2024-10-15T18:55:22.286Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 28%
+2024-10-15T18:55:22.297Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 29%
+2024-10-15T18:55:22.309Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 30%
+2024-10-15T18:55:22.328Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 31%
+2024-10-15T18:55:22.342Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 32%
+2024-10-15T18:55:22.354Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 33%
+2024-10-15T18:55:22.371Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 34%
+2024-10-15T18:55:22.384Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 35%
+2024-10-15T18:55:22.411Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 36%
+2024-10-15T18:55:22.432Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 37%
+2024-10-15T18:55:22.444Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 38%
+2024-10-15T18:55:22.460Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 39%
+2024-10-15T18:55:22.475Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 40%
+2024-10-15T18:55:22.499Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 41%
+2024-10-15T18:55:22.513Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 42%
+2024-10-15T18:55:22.539Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 43%
+2024-10-15T18:55:22.552Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 44%
+2024-10-15T18:55:22.568Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 45%
+2024-10-15T18:55:22.581Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 46%
+2024-10-15T18:55:22.596Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 47%
+2024-10-15T18:55:22.609Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 48%
+2024-10-15T18:55:22.623Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 49%
+2024-10-15T18:55:22.640Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 50%
+2024-10-15T18:55:22.654Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 51%
+2024-10-15T18:55:22.668Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 52%
+2024-10-15T18:55:22.681Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 53%
+2024-10-15T18:55:22.696Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 54%
+2024-10-15T18:55:22.709Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 55%
+2024-10-15T18:55:22.725Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 56%
+2024-10-15T18:55:22.742Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 57%
+2024-10-15T18:55:22.756Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 58%
+2024-10-15T18:55:22.769Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 59%
+2024-10-15T18:55:22.782Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 60%
+2024-10-15T18:55:22.802Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 61%
+2024-10-15T18:55:22.823Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 62%
+2024-10-15T18:55:22.840Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 63%
+2024-10-15T18:55:22.856Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 64%
+2024-10-15T18:55:22.870Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 65%
+2024-10-15T18:55:22.881Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 66%
+2024-10-15T18:55:22.898Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 67%
+2024-10-15T18:55:22.910Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 68%
+2024-10-15T18:55:22.924Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 69%
+2024-10-15T18:55:22.940Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 70%
+2024-10-15T18:55:22.956Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 71%
+2024-10-15T18:55:22.971Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 72%
+2024-10-15T18:55:22.983Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 73%
+2024-10-15T18:55:22.999Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 74%
+2024-10-15T18:55:23.012Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 75%
+2024-10-15T18:55:23.030Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 76%
+2024-10-15T18:55:23.053Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 77%
+2024-10-15T18:55:23.066Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 78%
+2024-10-15T18:55:23.079Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 79%
+2024-10-15T18:55:23.091Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 80%
+2024-10-15T18:55:23.109Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 81%
+2024-10-15T18:55:23.126Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 82%
+2024-10-15T18:55:23.155Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 83%
+2024-10-15T18:55:23.174Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 84%
+2024-10-15T18:55:23.179Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 85%
+2024-10-15T18:55:23.187Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 86%
+2024-10-15T18:55:23.207Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 87%
+2024-10-15T18:55:23.226Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 88%
+2024-10-15T18:55:23.237Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 89%
+2024-10-15T18:55:23.256Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 90%
+2024-10-15T18:55:23.275Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 91%
+2024-10-15T18:55:23.288Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 92%
+2024-10-15T18:55:23.302Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 93%
+2024-10-15T18:55:23.318Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 94%
+2024-10-15T18:55:23.334Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 95%
+2024-10-15T18:55:23.349Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 96%
+2024-10-15T18:55:23.362Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 97%
+2024-10-15T18:55:23.375Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 98%
+2024-10-15T18:55:23.389Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 99%
+2024-10-15T18:55:23.401Z [Modules] Streaming discord_spellcheck@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip: 100%
+2024-10-15T18:55:23.404Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-10-15T18:55:23.404Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip
+2024-10-15T18:55:24.336Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 1%
+2024-10-15T18:55:24.342Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 2%
+2024-10-15T18:55:24.346Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 3%
+2024-10-15T18:55:24.357Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 5%
+2024-10-15T18:55:24.366Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 7%
+2024-10-15T18:55:24.375Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 8%
+2024-10-15T18:55:24.380Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 9%
+2024-10-15T18:55:24.388Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 10%
+2024-10-15T18:55:24.389Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 11%
+2024-10-15T18:55:24.393Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 12%
+2024-10-15T18:55:24.398Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 13%
+2024-10-15T18:55:24.403Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 14%
+2024-10-15T18:55:24.412Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 15%
+2024-10-15T18:55:24.418Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 16%
+2024-10-15T18:55:24.423Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 17%
+2024-10-15T18:55:24.428Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 18%
+2024-10-15T18:55:24.435Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 19%
+2024-10-15T18:55:24.439Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 20%
+2024-10-15T18:55:24.443Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 21%
+2024-10-15T18:55:24.451Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 22%
+2024-10-15T18:55:24.453Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 23%
+2024-10-15T18:55:24.456Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 24%
+2024-10-15T18:55:24.460Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 25%
+2024-10-15T18:55:24.467Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 26%
+2024-10-15T18:55:24.477Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 27%
+2024-10-15T18:55:24.482Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 28%
+2024-10-15T18:55:24.488Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 29%
+2024-10-15T18:55:24.490Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 30%
+2024-10-15T18:55:24.496Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 31%
+2024-10-15T18:55:24.501Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 32%
+2024-10-15T18:55:24.509Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 33%
+2024-10-15T18:55:24.518Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 34%
+2024-10-15T18:55:24.524Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 35%
+2024-10-15T18:55:24.530Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 36%
+2024-10-15T18:55:24.532Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 37%
+2024-10-15T18:55:24.537Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 38%
+2024-10-15T18:55:24.541Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 39%
+2024-10-15T18:55:24.547Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 40%
+2024-10-15T18:55:24.551Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 41%
+2024-10-15T18:55:24.555Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 42%
+2024-10-15T18:55:24.559Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 43%
+2024-10-15T18:55:24.563Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 44%
+2024-10-15T18:55:24.571Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 45%
+2024-10-15T18:55:24.577Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 46%
+2024-10-15T18:55:24.582Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 47%
+2024-10-15T18:55:24.590Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 48%
+2024-10-15T18:55:24.595Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 49%
+2024-10-15T18:55:24.601Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 50%
+2024-10-15T18:55:24.607Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 51%
+2024-10-15T18:55:24.611Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 52%
+2024-10-15T18:55:24.616Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 53%
+2024-10-15T18:55:24.624Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 54%
+2024-10-15T18:55:24.632Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 55%
+2024-10-15T18:55:24.639Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 56%
+2024-10-15T18:55:24.641Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 57%
+2024-10-15T18:55:24.645Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 58%
+2024-10-15T18:55:24.654Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 60%
+2024-10-15T18:55:24.659Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 61%
+2024-10-15T18:55:24.664Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 62%
+2024-10-15T18:55:24.667Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 63%
+2024-10-15T18:55:24.673Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 64%
+2024-10-15T18:55:24.683Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 65%
+2024-10-15T18:55:24.688Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 66%
+2024-10-15T18:55:24.693Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 67%
+2024-10-15T18:55:24.705Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 69%
+2024-10-15T18:55:24.708Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 70%
+2024-10-15T18:55:24.716Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 71%
+2024-10-15T18:55:24.725Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 72%
+2024-10-15T18:55:24.731Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 73%
+2024-10-15T18:55:24.735Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 74%
+2024-10-15T18:55:24.746Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 75%
+2024-10-15T18:55:24.751Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 76%
+2024-10-15T18:55:24.755Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 77%
+2024-10-15T18:55:24.760Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 78%
+2024-10-15T18:55:24.765Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 79%
+2024-10-15T18:55:24.773Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 81%
+2024-10-15T18:55:24.781Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 82%
+2024-10-15T18:55:24.791Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 83%
+2024-10-15T18:55:24.796Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 84%
+2024-10-15T18:55:24.801Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 85%
+2024-10-15T18:55:24.808Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 86%
+2024-10-15T18:55:24.810Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 87%
+2024-10-15T18:55:24.819Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 89%
+2024-10-15T18:55:24.822Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 90%
+2024-10-15T18:55:24.826Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 91%
+2024-10-15T18:55:24.832Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 92%
+2024-10-15T18:55:24.842Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 93%
+2024-10-15T18:55:24.844Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 94%
+2024-10-15T18:55:24.852Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 95%
+2024-10-15T18:55:24.857Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 96%
+2024-10-15T18:55:24.859Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 97%
+2024-10-15T18:55:24.864Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 98%
+2024-10-15T18:55:24.870Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 99%
+2024-10-15T18:55:24.873Z [Modules] Streaming discord_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip: 100%
+2024-10-15T18:55:24.876Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-10-15T18:55:24.876Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip
+2024-10-15T18:55:25.821Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 1%
+2024-10-15T18:55:25.854Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 2%
+2024-10-15T18:55:25.898Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 3%
+2024-10-15T18:55:25.936Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 4%
+2024-10-15T18:55:25.974Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 5%
+2024-10-15T18:55:26.003Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 6%
+2024-10-15T18:55:26.038Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 7%
+2024-10-15T18:55:26.086Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 8%
+2024-10-15T18:55:26.129Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 9%
+2024-10-15T18:55:26.165Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 10%
+2024-10-15T18:55:26.209Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 11%
+2024-10-15T18:55:26.252Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 12%
+2024-10-15T18:55:26.292Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 13%
+2024-10-15T18:55:26.341Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 14%
+2024-10-15T18:55:26.388Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 15%
+2024-10-15T18:55:26.431Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 16%
+2024-10-15T18:55:26.469Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 17%
+2024-10-15T18:55:26.517Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 18%
+2024-10-15T18:55:26.560Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 19%
+2024-10-15T18:55:26.598Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 20%
+2024-10-15T18:55:26.646Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 21%
+2024-10-15T18:55:26.692Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 22%
+2024-10-15T18:55:26.732Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 23%
+2024-10-15T18:55:26.791Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 24%
+2024-10-15T18:55:26.832Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 25%
+2024-10-15T18:55:26.870Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 26%
+2024-10-15T18:55:26.921Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 27%
+2024-10-15T18:55:26.966Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 28%
+2024-10-15T18:55:27.013Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 29%
+2024-10-15T18:55:27.067Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 30%
+2024-10-15T18:55:27.116Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 31%
+2024-10-15T18:55:27.166Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 32%
+2024-10-15T18:55:27.217Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 33%
+2024-10-15T18:55:27.268Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 34%
+2024-10-15T18:55:27.320Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 35%
+2024-10-15T18:55:27.374Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 36%
+2024-10-15T18:55:27.417Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 37%
+2024-10-15T18:55:27.474Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 38%
+2024-10-15T18:55:27.529Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 39%
+2024-10-15T18:55:27.580Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 40%
+2024-10-15T18:55:27.640Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 41%
+2024-10-15T18:55:27.691Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 42%
+2024-10-15T18:55:27.757Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 43%
+2024-10-15T18:55:27.812Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 44%
+2024-10-15T18:55:27.869Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 45%
+2024-10-15T18:55:27.957Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 46%
+2024-10-15T18:55:28.020Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 47%
+2024-10-15T18:55:28.086Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 48%
+2024-10-15T18:55:28.150Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 49%
+2024-10-15T18:55:28.210Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 50%
+2024-10-15T18:55:28.289Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 51%
+2024-10-15T18:55:28.352Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 52%
+2024-10-15T18:55:28.421Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 53%
+2024-10-15T18:55:28.496Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 54%
+2024-10-15T18:55:28.574Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 55%
+2024-10-15T18:55:28.634Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 56%
+2024-10-15T18:55:28.720Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 57%
+2024-10-15T18:55:28.839Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 58%
+2024-10-15T18:55:28.919Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 59%
+2024-10-15T18:55:29.046Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 60%
+2024-10-15T18:55:29.157Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 61%
+2024-10-15T18:55:29.320Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 62%
+2024-10-15T18:55:29.483Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 63%
+2024-10-15T18:55:29.649Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 64%
+2024-10-15T18:55:29.842Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 65%
+2024-10-15T18:55:30.124Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 66%
+2024-10-15T18:55:30.400Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 67%
+2024-10-15T18:55:30.547Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 68%
+2024-10-15T18:55:30.678Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 69%
+2024-10-15T18:55:30.774Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 70%
+2024-10-15T18:55:30.866Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 71%
+2024-10-15T18:55:30.939Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 72%
+2024-10-15T18:55:31.002Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 73%
+2024-10-15T18:55:31.061Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 74%
+2024-10-15T18:55:31.114Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 75%
+2024-10-15T18:55:31.162Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 76%
+2024-10-15T18:55:31.207Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 77%
+2024-10-15T18:55:31.253Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 78%
+2024-10-15T18:55:31.294Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 79%
+2024-10-15T18:55:31.332Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 80%
+2024-10-15T18:55:31.367Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 81%
+2024-10-15T18:55:31.404Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 82%
+2024-10-15T18:55:31.446Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 83%
+2024-10-15T18:55:31.477Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 84%
+2024-10-15T18:55:31.519Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 85%
+2024-10-15T18:55:31.559Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 86%
+2024-10-15T18:55:31.590Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 87%
+2024-10-15T18:55:31.627Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 88%
+2024-10-15T18:55:31.670Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 89%
+2024-10-15T18:55:31.703Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 90%
+2024-10-15T18:55:31.736Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 91%
+2024-10-15T18:55:31.770Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 92%
+2024-10-15T18:55:31.821Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 93%
+2024-10-15T18:55:31.855Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 94%
+2024-10-15T18:55:31.887Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 95%
+2024-10-15T18:55:31.922Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 96%
+2024-10-15T18:55:31.959Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 97%
+2024-10-15T18:55:32.002Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 98%
+2024-10-15T18:55:32.036Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 99%
+2024-10-15T18:55:32.068Z [Modules] Streaming discord_voice@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip: 100%
+2024-10-15T18:55:32.079Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-10-15T18:55:32.079Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip
+2024-10-15T18:55:33.180Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 7%
+2024-10-15T18:55:33.182Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 11%
+2024-10-15T18:55:33.192Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 28%
+2024-10-15T18:55:33.195Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 36%
+2024-10-15T18:55:33.198Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 40%
+2024-10-15T18:55:33.203Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 44%
+2024-10-15T18:55:33.208Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 60%
+2024-10-15T18:55:33.223Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 76%
+2024-10-15T18:55:33.229Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 92%
+2024-10-15T18:55:33.237Z [Modules] Streaming discord_zstd@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip: 100%
+2024-10-15T18:55:33.240Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-10-15T18:55:33.241Z [Modules] Installing updates...
+2024-10-15T18:55:33.241Z [Modules] Installing discord_desktop_core@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_desktop_core-1.zip
+2024-10-15T18:55:33.504Z [Modules] Installing discord_erlpack@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_erlpack-1.zip
+2024-10-15T18:55:33.677Z [Modules] Installing discord_spellcheck@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_spellcheck-1.zip
+2024-10-15T18:55:36.410Z [Modules] Installing discord_utils@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_utils-1.zip
+2024-10-15T18:55:37.070Z [Modules] Installing discord_voice@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_voice-1.zip
+2024-10-15T18:55:38.916Z [Modules] Installing discord_zstd@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_zstd-1.zip
+2024-10-15T18:55:38.972Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-10-15T18:55:38.973Z [Modules] Host is up to date.
+2024-10-15T18:55:38.973Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-15T18:55:38.984Z [Modules] No module updates available.
+2024-10-15T18:55:42.262Z [Modules] Starting to install discord_krisp...
+2024-10-15T18:55:42.263Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-10-15T18:55:42.264Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip
+2024-10-15T18:55:42.286Z [Modules] Starting to install discord_game_utils...
+2024-10-15T18:55:43.475Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 7%
+2024-10-15T18:55:43.573Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 8%
+2024-10-15T18:55:43.611Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 10%
+2024-10-15T18:55:43.634Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 12%
+2024-10-15T18:55:43.864Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 13%
+2024-10-15T18:55:43.870Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 14%
+2024-10-15T18:55:43.876Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 15%
+2024-10-15T18:55:43.877Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 16%
+2024-10-15T18:55:43.879Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 17%
+2024-10-15T18:55:43.890Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 18%
+2024-10-15T18:55:43.906Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 19%
+2024-10-15T18:55:43.973Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 20%
+2024-10-15T18:55:44.013Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 21%
+2024-10-15T18:55:44.158Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 22%
+2024-10-15T18:55:44.163Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 23%
+2024-10-15T18:55:44.192Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 24%
+2024-10-15T18:55:44.271Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 25%
+2024-10-15T18:55:44.318Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 26%
+2024-10-15T18:55:44.395Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 27%
+2024-10-15T18:55:44.437Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 28%
+2024-10-15T18:55:44.515Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 29%
+2024-10-15T18:55:44.593Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 30%
+2024-10-15T18:55:44.671Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 31%
+2024-10-15T18:55:44.782Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 32%
+2024-10-15T18:55:44.802Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 33%
+2024-10-15T18:55:44.870Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 34%
+2024-10-15T18:55:44.934Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 35%
+2024-10-15T18:55:44.970Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 36%
+2024-10-15T18:55:45.017Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 37%
+2024-10-15T18:55:45.063Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 38%
+2024-10-15T18:55:45.093Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 39%
+2024-10-15T18:55:45.137Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 40%
+2024-10-15T18:55:45.180Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 41%
+2024-10-15T18:55:45.217Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 42%
+2024-10-15T18:55:45.254Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 43%
+2024-10-15T18:55:45.295Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 44%
+2024-10-15T18:55:45.342Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 45%
+2024-10-15T18:55:45.402Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 46%
+2024-10-15T18:55:45.433Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 47%
+2024-10-15T18:55:45.455Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 48%
+2024-10-15T18:55:45.498Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 49%
+2024-10-15T18:55:45.542Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 50%
+2024-10-15T18:55:45.585Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 51%
+2024-10-15T18:55:45.614Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 52%
+2024-10-15T18:55:45.650Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 53%
+2024-10-15T18:55:45.684Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 54%
+2024-10-15T18:55:45.689Z [Modules] Host is up to date.
+2024-10-15T18:55:45.689Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-15T18:55:45.699Z [Modules] No module updates available.
+2024-10-15T18:55:45.735Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 55%
+2024-10-15T18:55:45.777Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 56%
+2024-10-15T18:55:45.807Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 57%
+2024-10-15T18:55:45.849Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 58%
+2024-10-15T18:55:45.886Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 59%
+2024-10-15T18:55:45.928Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 60%
+2024-10-15T18:55:45.970Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 61%
+2024-10-15T18:55:46.006Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 62%
+2024-10-15T18:55:46.042Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 63%
+2024-10-15T18:55:46.091Z [Modules] Starting to install discord_rpc...
+2024-10-15T18:55:46.107Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 64%
+2024-10-15T18:55:46.129Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 65%
+2024-10-15T18:55:46.163Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 66%
+2024-10-15T18:55:46.219Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 67%
+2024-10-15T18:55:46.240Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 68%
+2024-10-15T18:55:46.279Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 69%
+2024-10-15T18:55:46.308Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 70%
+2024-10-15T18:55:46.339Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 71%
+2024-10-15T18:55:46.395Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 72%
+2024-10-15T18:55:46.430Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 73%
+2024-10-15T18:55:46.472Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 74%
+2024-10-15T18:55:46.512Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 75%
+2024-10-15T18:55:46.560Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 76%
+2024-10-15T18:55:46.589Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 77%
+2024-10-15T18:55:46.629Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 78%
+2024-10-15T18:55:46.675Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 79%
+2024-10-15T18:55:46.714Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 80%
+2024-10-15T18:55:46.747Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 81%
+2024-10-15T18:55:46.783Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 82%
+2024-10-15T18:55:46.854Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 83%
+2024-10-15T18:55:46.884Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 84%
+2024-10-15T18:55:46.926Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 85%
+2024-10-15T18:55:46.982Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 86%
+2024-10-15T18:55:47.034Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 87%
+2024-10-15T18:55:47.067Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 88%
+2024-10-15T18:55:47.106Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 89%
+2024-10-15T18:55:47.136Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 90%
+2024-10-15T18:55:47.178Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 91%
+2024-10-15T18:55:47.231Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 92%
+2024-10-15T18:55:47.261Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 93%
+2024-10-15T18:55:47.309Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 94%
+2024-10-15T18:55:47.335Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 95%
+2024-10-15T18:55:47.373Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 96%
+2024-10-15T18:55:47.401Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 97%
+2024-10-15T18:55:47.439Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 98%
+2024-10-15T18:55:47.475Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 99%
+2024-10-15T18:55:47.512Z [Modules] Streaming discord_krisp@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip: 100%
+2024-10-15T18:55:47.515Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-10-15T18:55:47.515Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip
+2024-10-15T18:55:47.515Z [Modules] Installing discord_krisp@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_krisp-1.zip
+2024-10-15T18:55:48.453Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 1%
+2024-10-15T18:55:48.461Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 4%
+2024-10-15T18:55:48.465Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 5%
+2024-10-15T18:55:48.468Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 7%
+2024-10-15T18:55:48.477Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 8%
+2024-10-15T18:55:48.482Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 9%
+2024-10-15T18:55:48.489Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 11%
+2024-10-15T18:55:48.491Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 12%
+2024-10-15T18:55:48.493Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 13%
+2024-10-15T18:55:48.505Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 14%
+2024-10-15T18:55:48.508Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 16%
+2024-10-15T18:55:48.510Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 17%
+2024-10-15T18:55:48.516Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 18%
+2024-10-15T18:55:48.523Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 19%
+2024-10-15T18:55:48.530Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 21%
+2024-10-15T18:55:48.538Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 23%
+2024-10-15T18:55:48.543Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 24%
+2024-10-15T18:55:48.550Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 25%
+2024-10-15T18:55:48.555Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 26%
+2024-10-15T18:55:48.571Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 28%
+2024-10-15T18:55:48.584Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 31%
+2024-10-15T18:55:48.588Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 34%
+2024-10-15T18:55:48.596Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 36%
+2024-10-15T18:55:48.606Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 38%
+2024-10-15T18:55:48.608Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 39%
+2024-10-15T18:55:48.611Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 40%
+2024-10-15T18:55:48.617Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 41%
+2024-10-15T18:55:48.627Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 43%
+2024-10-15T18:55:48.630Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 44%
+2024-10-15T18:55:48.634Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 45%
+2024-10-15T18:55:48.651Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 47%
+2024-10-15T18:55:48.658Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 49%
+2024-10-15T18:55:48.665Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 52%
+2024-10-15T18:55:48.678Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 54%
+2024-10-15T18:55:48.682Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 56%
+2024-10-15T18:55:48.697Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 59%
+2024-10-15T18:55:48.701Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 60%
+2024-10-15T18:55:48.706Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 62%
+2024-10-15T18:55:48.711Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 63%
+2024-10-15T18:55:48.719Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 65%
+2024-10-15T18:55:48.728Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 67%
+2024-10-15T18:55:48.736Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 69%
+2024-10-15T18:55:48.740Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 70%
+2024-10-15T18:55:48.751Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 71%
+2024-10-15T18:55:48.759Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 72%
+2024-10-15T18:55:48.764Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 73%
+2024-10-15T18:55:48.772Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 75%
+2024-10-15T18:55:48.777Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 77%
+2024-10-15T18:55:48.781Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 79%
+2024-10-15T18:55:48.791Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 80%
+2024-10-15T18:55:48.800Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 82%
+2024-10-15T18:55:48.816Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 83%
+2024-10-15T18:55:48.825Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 85%
+2024-10-15T18:55:48.830Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 86%
+2024-10-15T18:55:48.833Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 87%
+2024-10-15T18:55:48.839Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 88%
+2024-10-15T18:55:48.841Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 89%
+2024-10-15T18:55:48.849Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 91%
+2024-10-15T18:55:48.858Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 93%
+2024-10-15T18:55:48.863Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 95%
+2024-10-15T18:55:48.870Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 96%
+2024-10-15T18:55:48.873Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 97%
+2024-10-15T18:55:48.875Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 98%
+2024-10-15T18:55:48.880Z [Modules] Streaming discord_game_utils@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip: 100%
+2024-10-15T18:55:48.889Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-10-15T18:55:48.889Z [Modules] Streaming discord_rpc@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_rpc-1.zip
+2024-10-15T18:55:49.427Z [Modules] Installing discord_game_utils@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_game_utils-1.zip
+2024-10-15T18:55:49.807Z [Modules] Streaming discord_rpc@1 to /home/sparrow/.config/discord/0.0.67/modules/pending/discord_rpc-1.zip: 100%
+2024-10-15T18:55:49.815Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-10-15T18:55:49.944Z [Modules] Installing discord_rpc@1 from /home/sparrow/.config/discord/0.0.67/modules/pending/discord_rpc-1.zip
+2024-10-15T18:55:50.041Z [Modules] Finished module installations. [success: 3] [failure: 0]
+2024-10-16T03:54:46.143Z [Modules] Modules initializing
+2024-10-16T03:54:46.143Z [Modules] Distribution: remote
+2024-10-16T03:54:46.144Z [Modules] Host updates: disabled
+2024-10-16T03:54:46.144Z [Modules] Module updates: enabled
+2024-10-16T03:54:46.144Z [Modules] Module install path: /home/sparrow/.config/discord/0.0.67/modules
+2024-10-16T03:54:46.145Z [Modules] Module installed file path: /home/sparrow/.config/discord/0.0.67/modules/installed.json
+2024-10-16T03:54:46.145Z [Modules] Module download path: /home/sparrow/.config/discord/0.0.67/modules/pending
+2024-10-16T03:54:46.753Z [Modules] No updates to install
+2024-10-16T03:54:46.755Z [Modules] Host is up to date.
+2024-10-16T03:54:46.756Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-16T03:54:47.842Z [Modules] No module updates available.
+2024-10-16T03:54:56.125Z [Modules] Host is up to date.
+2024-10-16T03:54:56.125Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-16T03:54:56.131Z [Modules] No module updates available.
+2024-10-16T03:56:05.450Z [Modules] Modules initializing
+2024-10-16T03:56:05.450Z [Modules] Distribution: remote
+2024-10-16T03:56:05.451Z [Modules] Host updates: disabled
+2024-10-16T03:56:05.451Z [Modules] Module updates: enabled
+2024-10-16T03:56:05.452Z [Modules] Module install path: /home/sparrow/.config/discord/0.0.67/modules
+2024-10-16T03:56:05.452Z [Modules] Module installed file path: /home/sparrow/.config/discord/0.0.67/modules/installed.json
+2024-10-16T03:56:05.453Z [Modules] Module download path: /home/sparrow/.config/discord/0.0.67/modules/pending
+2024-10-16T03:56:05.915Z [Modules] No updates to install
+2024-10-16T03:56:05.917Z [Modules] Host is up to date.
+2024-10-16T03:56:05.918Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-16T03:56:06.832Z [Modules] No module updates available.
+2024-10-16T03:56:11.345Z [Modules] Host is up to date.
+2024-10-16T03:56:11.345Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-16T03:56:11.350Z [Modules] No module updates available.
+2024-10-17T14:55:32.786Z [Modules] Modules initializing
+2024-10-17T14:55:32.787Z [Modules] Distribution: remote
+2024-10-17T14:55:32.787Z [Modules] Host updates: disabled
+2024-10-17T14:55:32.788Z [Modules] Module updates: enabled
+2024-10-17T14:55:32.789Z [Modules] Module install path: /home/sparrow/.config/discord/0.0.67/modules
+2024-10-17T14:55:32.789Z [Modules] Module installed file path: /home/sparrow/.config/discord/0.0.67/modules/installed.json
+2024-10-17T14:55:32.789Z [Modules] Module download path: /home/sparrow/.config/discord/0.0.67/modules/pending
+2024-10-17T14:55:33.510Z [Modules] No updates to install
+2024-10-17T14:55:33.512Z [Modules] Host is up to date.
+2024-10-17T14:55:33.512Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-17T14:55:34.733Z [Modules] No module updates available.
+2024-10-17T14:55:43.123Z [Modules] Host is up to date.
+2024-10-17T14:55:43.123Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-17T14:55:43.140Z [Modules] No module updates available.

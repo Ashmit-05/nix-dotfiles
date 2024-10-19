@@ -1,4 +1,9 @@
 configuration {
+    font : "JetBrainsMono Nerd Font 17";
     show-icons : true;
+    modes : "drun,run,window";
+    sidebar-mode: true;
   }
-@theme "/nix/store/9r2bkkyfjpilrwld4q481ci471mziydr-rofi-1.7.5/share/rofi/themes/DarkBlue.rasi"
+//@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+
+@theme "/nix/store/js0rnlgk75w4zx68d5i0hrgfnlkx8610-rofi-1.7.5+wayland3/share/rofi/themes/DarkBlue.rasi"
